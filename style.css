@@ -123,4 +123,41 @@ main section {
   color: #474747;
 }
 /* summary of my resume */
+.resume-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+.resume-colum-title {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+}
 
+.resume-item-institute {
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+
+.resume-item-institute,
+.resume-item-description {
+  color: #757575;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+.resume-item-title {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: normal;
+}
+.resume-container hr {
+  margin: 30px 0;
+}
+.download-cv {
+  text-align: center;
+  margin-top: 50px;
+}
