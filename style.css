@@ -94,6 +94,9 @@ main {
   max-width: 1140px;
   margin: 0 auto;
 }
+main section {
+  margin-top: 130px;
+}
 .about-info-container {
   display: flex;
   justify-content: space-around;
@@ -101,3 +104,23 @@ main {
 .about-info {
   text-align: center;
 }
+/* What I do */
+#what-i-do-description {
+  padding: 30px 150px;
+}
+/* skill container */
+.skills-container {
+  display: flex;
+  gap: 24px;
+}
+.skill {
+  padding: 30px;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-description {
+  color: #474747;
+}
+/* summary of my resume */
+
