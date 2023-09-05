@@ -187,3 +187,75 @@ textarea {
   background-color: #ffffff;
   width: 100%;
 }
+
+/* responsive styles */
+/* mobile devices */
+@media screen and (max-width: 576px) {
+  .header {
+    background-image: none;
+  }
+  nav,
+  nav > ul,
+  .banner,
+  .skills-container,
+  .resume-container,
+  .about-info-container,
+  footer {
+    flex-direction: column;
+  }
+
+  nav > ul {
+    gap: 10px;
+  }
+  .banner .profile-pic {
+    width: 100%;
+  }
+
+  .banner,
+  #what-i-do-description {
+    padding: 20px;
+  }
+  .resume-container {
+    flex-direction: column;
+    padding: 10px;
+  }
+  footer,
+  .about {
+    padding: 10px;
+  }
+  .button-primary {
+    margin-bottom: 15px;
+  }
+  .footer-colum {
+    width: 100%;
+  }
+  .contact input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 960px) {
+  .skills-container {
+    flex-direction: column;
+  }
+  #what-i-do-description {
+    padding: 20px;
+  }
+  .resume-container {
+    flex-direction: column;
+  }
+  footer,
+  .about {
+    padding: 10px;
+  }
+  .contact input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 60%;
+  }
+  .button-primary {
+    margin-bottom: 15px;
+  }
+}
